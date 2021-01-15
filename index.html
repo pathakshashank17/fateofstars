@@ -4,12 +4,11 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
-	<title>reveal.js</title>
-
+	<title>Fate of Stars</title>
 	<link rel="stylesheet" href="dist/reset.css">
 	<link rel="stylesheet" href="dist/reveal.css">
 	<link rel="stylesheet" href="dist/theme/black.css" id="theme">
+	<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💫💥</text></svg>">
 </head>
 
 <body>
@@ -121,7 +120,7 @@
 
 
 					# Thank You ✌ <!-- .slide: data-background-iframe="https://lab.hakim.se/rymd/" -->
-        </script>
+        		</script>
 			</section>
 		</div>
 	</div>
@@ -134,16 +133,16 @@
 		Reveal.initialize({
 			hash: true,
 			history: true,
-				transition: 'linear',
-				math: {
-					config: 'TeX-AMS_HTML-full',
-					TeX: {
-						Macros: {
-							R: '\\mathbb{R}',
-							set: [ '\\left\\{#1 \\; ; \\; #2\\right\\}', 2 ]
-						}
+			transition: 'linear',
+			math: {
+				config: 'TeX-AMS_HTML-full',
+				TeX: {
+					Macros: {
+						R: '\\mathbb{R}',
+						set: ['\\left\\{#1 \\; ; \\; #2\\right\\}', 2]
 					}
-				},
+				}
+			},
 			plugins: [RevealMarkdown, RevealNotes, RevealMath]
 		});
 	</script>
