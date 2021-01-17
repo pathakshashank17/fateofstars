@@ -6,5 +6,5 @@
 
 <h4>Credits:</h4>
 
-- Pulse background & audio of LGM-1: [LeMMiNo](https://www.youtube.com/watch?v=ryg077wBvsM&list=LLO-5OTzfWO46g0QVcYGRoeQ&index=123&ab_channel=LEMMiNO)
+- Pulse background & audio of LGM-1: [LEMMiNO](https://www.youtube.com/watch?v=ryg077wBvsM&list=LLO-5OTzfWO46g0QVcYGRoeQ&index=123&ab_channel=LEMMiNO)
 - Spiral & Starfield: [Hakim El Hattab](https://github.com/hakimel/)
